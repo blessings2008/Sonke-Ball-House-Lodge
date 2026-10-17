@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#66745b">
+  <meta name="description" content="Sonke Ball House & Lodge — a distinctive stay in Blantyre, Malawi, centred around the iconic football-shaped Sonke House.">
+  <title>Sonke Ball House & Lodge | Blantyre, Malawi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Sonke Ball House & Lodge home">
+        <span class="brand-mark" aria-hidden="true"><span>⚽</span></span>
+        <span class="brand-copy">
+          <strong>SONKE</strong>
+          <small>BALL HOUSE & LODGE</small>
+        </span>
+      </a>
+      <button class="menu-button" aria-label="Open menu" id="menuButton">
+        <i></i><i></i><i></i>
+      </button>
+    </header>
+
+    <main id="home">
+      <section class="mosaic" aria-label="Sonke Ball House highlights">
+        <article class="hero-card image-card">
+          <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85" alt="Peaceful lodge pool and garden">
+          <div class="image-shade"></div>
+          <div class="hero-copy">
+            <span class="eyebrow">A stay unlike any other</span>
+            <h1>Stay inside<br>something<br>extraordinary.</h1>
+            <p>Discover Malawi's iconic ball house and a warm, private lodge experience in Blantyre.</p>
+            <a class="primary-btn" href="#booking">Plan your stay <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="room-card image-card">
+          <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=900&q=85" alt="Comfortable lodge bedroom">
+          <div class="image-shade"></div>
+          <div class="floating-icon">⌂</div>
+          <div class="card-copy">
+            <h2>Comfortable Rooms</h2>
+            <p>Rest, reset and wake up somewhere memorable.</p>
+          </div>
+        </article>
+
+        <div class="info-row">
+          <a class="info-card location" href="#location">
+            <span class="icon">●</span>
+            <span><strong>Blantyre, Malawi</strong><small>Nyambadwe · View map →</small></span>
+          </a>
+          <div class="info-card rating">
+            <span class="star">★</span>
+            <span><strong>Unique stay</strong><small>One of a kind</small></span>
+          </div>
+        </div>
+
+        <article class="small-feature image-card">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=85" alt="Restaurant dining setting">
+          <div class="small-overlay"></div>
+          <div class="floating-icon">⌁</div>
+          <div class="small-copy"><strong>Dining</strong><span>Simple moments, good food.</span></div>
+        </article>
+
+        <article class="small-feature image-card">
+          <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=800&q=85" alt="Meeting space">
+          <div class="small-overlay"></div>
+          <div class="floating-icon">◎</div>
+          <div class="small-copy"><strong>Gather</strong><span>Space to connect and unwind.</span></div>
+        </article>
+
+        <article class="price-card">
+          <div class="price-icon">◆</div>
+          <div><small>Stay at Sonke</small><strong>Enquire for rates</strong><span>Contact us for availability</span></div>
+        </article>
+
+        <blockquote class="quote-card">
+          <span class="quote-mark">“</span>
+          <p>A place that turns an overnight stay into a story worth telling.</p>
+          <cite>— Sonke Ball House & Lodge</cite>
+        </blockquote>
+
+        <article class="view-card image-card">
+          <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=85" alt="Malawi landscape at sunset">
+          <div class="image-shade"></div>
+          <div class="view-copy"><span>Slow down.</span><strong>Take in Malawi.</strong></div>
+        </article>
+      </section>
+
+      <section class="story-section" id="about">
+        <div class="section-label">THE STORY</div>
+        <h2>A house shaped by<br><em>passion.</em></h2>
+        <p>The Sonke House is a remarkable football-shaped home in Blantyre, created from a love of football and a desire to build something completely different. Today, it gives visitors the chance to experience an architectural curiosity as a genuinely personal stay.</p>
+        <div class="story-pills"><span>⚽ Iconic architecture</span><span>🌿 Garden setting</span><span>📍 Blantyre</span></div>
+      </section>
+
+      <section class="booking-section" id="booking">
+        <div class="section-label">BOOK YOUR STAY</div>
+        <h2>Make your next stay<br><em>memorable.</em></h2>
+        <form class="booking-card" id="bookingForm">
+          <label>Check-in<input type="date" name="checkin" required></label>
+          <label>Check-out<input type="date" name="checkout" required></label>
+          <label>Guests<select name="guests"><option>1 Guest</option><option>2 Guests</option><option>3 Guests</option><option>4+ Guests</option></select></label>
+          <button type="submit">Check availability <span>→</span></button>
+          <p id="formMessage" role="status"></p>
+        </form>
+      </section>
+
+      <section class="amenities" id="facilities">
+        <div class="section-label">AT A GLANCE</div>
+        <div class="amenity-grid">
+          <div><span>⌁</span><strong>Free Wi‑Fi</strong><small>Stay connected</small></div>
+          <div><span>⌂</span><strong>Private parking</strong><small>On-site parking</small></div>
+          <div><span>☕</span><strong>Breakfast</strong><small>Start your day well</small></div>
+          <div><span>✦</span><strong>Garden</strong><small>Relax outdoors</small></div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="location">
+        <div>
+          <div class="section-label">FIND US</div>
+          <h2>Nyambadwe,<br><em>Blantyre.</em></h2>
+          <p>Sonke Ball House & Lodge<br>Plot MC 105, Zalewa Road<br>Chirimba, Blantyre, Malawi</p>
+        </div>
+        <a class="map-btn" href="https://www.google.com/maps/search/?api=1&query=Sonke+Ball+House+Blantyre+Malawi" target="_blank" rel="noopener">Open in Maps →</a>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-brand"><span class="brand-mark">⚽</span><strong>SONKE BALL HOUSE & LODGE</strong></div>
+      <p>A memorable stay in the heart of Blantyre.</p>
+      <div class="credit">Website concept & development · <strong>Tambala Technologies</strong></div>
+    </footer>
+
+    <nav class="bottom-nav" aria-label="Main navigation">
+      <a class="active" href="#home"><span>⌂</span>Home</a>
+      <a href="#about"><span>◉</span>Story</a>
+      <a href="#booking"><span>▣</span>Book</a>
+      <a href="#facilities"><span>✦</span>Facilities</a>
+      <a href="#location"><span>ⓘ</span>About</a>
+    </nav>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
